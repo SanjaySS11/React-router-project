@@ -10,7 +10,7 @@ import { CiFacebook } from "react-icons/ci";
 
 function Footer() {
     return (
-        <div className='min-h-screen w-screen bg-gray-900 text-white '>
+        <div className=' w-screen bg-gray-900 text-white '>
             <div className=" grid md:flex justify-around">
                 <div className="flex items-center gap-10 bg-green-800 p-5 m-10">
                     <div>  <FaMap /></div>
@@ -39,8 +39,8 @@ function Footer() {
 
             </div>
 
-            <div className=" grid  md:flex justify-around ">
-                <div className=" w-full p-10 md:w-1/6">
+            <div className=" grid  xl:flex justify-around ">
+                <div className=" w-full p-10 xl:w-1/3">
                     <h4 className="text-xl">About us </h4>
                     <div className=' h-0 w-1/6 border border-white '></div>
                     <div>
@@ -48,7 +48,7 @@ function Footer() {
                     </div>
                 </div>
 
-                <div className=" w-full p-10 md:w-1/6">
+                <div className=" w-full p-10 xl:w-1/3">
                     <h4 className="text-xl"> Get in Touch </h4>
                     <div className=' h-0 w-1/6 border border-white '></div>
                     <div className="flex gap-5 items-center mt-5">
@@ -64,7 +64,7 @@ function Footer() {
                         <div><p>+91 9701757017</p></div>
                     </div>
                 </div>
-                <div className=" w-full p-10 md:w-1/6">
+                <div className=" w-full p-10 xl:w-1/3">
                     <h4 className="text-xl">Additional Link </h4>
                     <div className=' h-0 w-1/6 border border-white '></div>
                     <div className="flex gap-5 items-center mt-4">
